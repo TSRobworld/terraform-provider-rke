@@ -1,4 +1,4 @@
-FROM golang:1.12.3
+FROM golang:1.20.13
 
 RUN  apt-get update && \
      apt-get install -y xz-utils zip rsync jq curl ca-certificates && \
